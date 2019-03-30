@@ -1,22 +1,11 @@
-Chrome拡張の雛形
+クソ煽られるやつ
 ========================
 
 概要
 -----
 
-これをダウンロードかcloneして、書き換えてください。
+ﾄｩｲｯﾀｰ避けに指定ホストにアクセスしようとするとクソ煽られるページを挟む拡張機能作ったりするやつ
+自分用
 
-
-各種ドキュメント/サンプルページ
------------------------------------
-
-- [使い方](http://qiita.com/waterada/private/f8a53677a46c131a3734)
-- [サンプルページ](https://waterada.github.io/chrome-ex-template/test/example.html)
-- [ChEx.js のドキュメント](ChEx-doc.md)
-- [単体テスト](https://waterada.github.io/chrome-ex-template/test/test.html)
-
-
-License
------------------------------------
-
-MIT
+↓↓中身の99％↓↓
+https://qiita.com/waterada/items/7f5729e066714284ff72
