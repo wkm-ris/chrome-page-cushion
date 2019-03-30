@@ -1,15 +1,21 @@
 {
   "name": "Page Cushion",
-  "description": "指定URLにアクセスするとワンクッションページを挟みま"す,
-  "version": "0.1",
+  "description": "指定URLにアクセスするとワンクッションページを挟みまsu",
+  "version": "0.2",
   "manifest_version": 2,
   "content_scripts": [{
-    "matches": ["https://github.com/waterada/chrome-ex-template/*"],
+    "matches": ["https://*/"],
     "js": ["jquery-2.2.0.min.js", "ChEx.js", "content_script.js"]
   }],
+  "browser_action":{
+    "default_icon":{
+        "19": "icon.jpg"
+    }
+  },
   "options_page": "options.html",
   "permissions": [
-    "https://github.com/waterada/chrome-ex-template/*",
+    "https://*/",
+    "http://*/",
     "storage"
   ]
 }

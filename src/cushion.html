@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Cushion</title>
+	<script type="text/javascript">
+		chrome.runtime.onMessage.addListener(
+		  function(request) {
+    		var current_page = request.current_page;//title
+    		var current_url = request.current_url;
+  		});
+	</script>
+</head>
+<body>
+	<p>本当に
+		<script type="text/javascript">
+			document.write(current_page);
+		</script>
+	を開く？</p>
+	<button onclick="location.href=current_url">開く</button>
+	<button onclick="history.back()">うるせーーーーーーーーーーーーー閉！！！！！！！！！！</button>
+</body>
+</html>
